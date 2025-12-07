@@ -1,6 +1,6 @@
 # LLM-response-evaluation-metrics-using-Arrow-UDF-in-DUCKDB
 
-"""
+
 Compute LLM evaluation metrics between a gold answer (base_question)
 and a model response (variant_response).
 
@@ -16,4 +16,3 @@ Metrics:
 
 Supports:
 - Batch evaluation from a DuckDB file, updating the table in-place.
-"""
